@@ -1,0 +1,28 @@
+
+train: datast/VOCdevkit/VOC2007/train.txt  # 118287 images
+val: datast/VOCdevkit/VOC2007/val.txt  # 5000 images
+nc: 20
+
+# class names
+names:  [
+    'aeroplane',
+    'bicycle',
+    'bird',
+    'boat',
+    'bottle',
+    'bus',
+    'car',
+    'cat',
+    'chair',
+    'cow',
+    'diningtable',
+    'dog',
+    'horse',
+    'motorbike',
+    'person',
+    'pottedplant',
+    'sheep',
+    'sofa',
+    'train',
+    'tvmonitor'
+]

@@ -1,0 +1,38 @@
+
+train: autodl-tmp/PCB_DATASET/images/train # 118287 images
+val: autodl-tmp/PCB_DATASET/images/test # 5000 images
+nc: 5
+
+# class names
+# names:  [
+#             'aeroplane',
+#             'bicycle',
+#             'bird',
+#             'boat',
+#             'bottle',
+#             'bus',
+#             'car',
+#             'cat',
+#             'chair',
+#             'cow',
+#             'diningtable',
+#             'dog',
+#             'horse',
+#             'motorbike',
+#             'person',
+#             'pottedplant',
+#             'sheep',
+#             'sofa',
+#             'train',
+#             'tvmonitor'
+# ]
+
+# class names
+names:  [
+    'missing_hole',
+    'mouse_bite',
+    'open_circuit',
+    'short',
+    'spur',
+    'spurious_copper'
+]
